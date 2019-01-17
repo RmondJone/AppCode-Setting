@@ -1,0 +1,10 @@
+<templateSet group="Objective-C">
+  <template name="defBlock" value="typedef $a$(^$b$) ($c$)" description="定义Block" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+</templateSet>
